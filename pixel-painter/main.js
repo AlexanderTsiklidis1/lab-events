@@ -17,9 +17,9 @@ const canvas = document.querySelector("main");
             
         const currentColor = document.querySelector("#current-color");
         cell.style.backgroundColor = currentColor.style.backgroundColor;
-        })
+    })
         canvas.appendChild(cell);
-        }
+    }
     }
 
 for(let paletteColor of paletteColors) {
